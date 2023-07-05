@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.home-myshop {
+  justify-content: center;
+  display: flex;
+  flex: 1;
+}
+
+.card-text {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.download-button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 150px;
+  margin-right: 20px;
+}
+.download-and-moreinfo {
+  display: flex;
+  align-items: center;
+}
+.genre-data {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+.game-details {
+  display: flex;
+  flex-direction: column ;
+}
+
+.image-wrapper {
+  position: relative;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  padding: 20px;
+}
+.home-page-image {
+  width: 100%;
+  display: block;
+  transition: transform 2s;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+}
+.home-page-image:hover {
+  transform: scale(1.3);
+}
+.all-games-button {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white !important;
+  font-size: 50px; 
+}
+.all-games-button:hover {
+  background-color: brown !important;
+}
+.quotes-container {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 700px;
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 80px;
+  background: none;
+}
+
